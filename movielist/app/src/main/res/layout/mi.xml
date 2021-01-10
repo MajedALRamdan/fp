@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/rl1"
+    android:layout_width="395dp"
+    android:layout_height="200dp"
+    android:layout_marginLeft="5dp"
+    android:layout_marginTop="15dp"
+    android:layout_marginRight="15dp"
+
+    android:layout_marginBottom="45dp"
+    android:background="@drawable/layout_bg"
+    android:backgroundTint="#CAFFE6A7">
+
+
+    <TextView
+        android:id="@+id/md1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/mr2"
+        android:layout_marginStart="110dp"
+        android:layout_marginTop="14dp"
+        android:layout_toEndOf="@+id/mi"
+        android:text="TextView"
+        android:textColor="#521514"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/mr2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/mn"
+        android:layout_marginStart="94dp"
+        android:layout_marginTop="9dp"
+        android:layout_toEndOf="@+id/mi"
+        android:text="TextView"
+        android:textColor="#521514"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <RatingBar
+        android:id="@+id/rb"
+        android:layout_width="wrap_content"
+        android:layout_height="43dp"
+        android:layout_alignEnd="@+id/mi"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="-5dp"
+        android:layout_marginTop="131dp"
+        android:layout_marginEnd="-244dp"
+        android:isIndicator="true"
+        android:numStars="5"
+
+
+        android:progressBackgroundTint="#FFE6A7"
+        android:progressTint="#521514"
+        android:rating="4.7" />
+
+    <TextView
+        android:id="@+id/md1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/mr1"
+        android:layout_centerVertical="true"
+        android:layout_marginStart="27dp"
+        android:layout_marginTop="14dp"
+        android:layout_toEndOf="@+id/mi"
+        android:text="Duration:"
+        android:textColor="#875536"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/mr1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/mn"
+        android:layout_marginStart="27dp"
+        android:layout_marginTop="9dp"
+        android:layout_toEndOf="@+id/mi"
+        android:text="Rating:"
+        android:textColor="#875536"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:id="@+id/mi"
+        android:layout_width="110dp"
+        android:layout_height="175dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+
+        android:layout_marginStart="7dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="15dp"
+        android:scaleType="fitXY"
+        app:srcCompat="@drawable/badboys3" />
+
+    <TextView
+        android:id="@+id/mn"
+        android:layout_width="180dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="60dp"
+        android:layout_marginTop="10dp"
+        android:layout_toEndOf="@+id/mi"
+        android:text="TextView"
+        android:textAlignment="center"
+        android:textColor="#FF521514"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:id="@+id/del"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="7dp"
+        android:layout_marginBottom="4dp"
+        android:contentDescription="TODO"
+        app:srcCompat="@drawable/ic_baseline_delete_24" />
+
+
+</RelativeLayout>
